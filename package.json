@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite --host",
     "serve": "vite --host",
+    "cz": "git-cz",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint src/**/*.{js,vue} --fix",
@@ -12,6 +13,9 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "axios": "^1.4.0",
+    "dayjs": "^1.11.7",
+    "lodash-es": "^4.17.21",
     "pinia": "^2.0.36",
     "vue": "^3.3.2",
     "vue-router": "^4.2.0"
