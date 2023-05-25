@@ -35,8 +35,7 @@
   },
   "lint-staged": {
     "*.{vue,js,jsx,json}": [
-      "npm run lint",
-      "git add"
+      "npm run lint"
     ]
   },
   "config": {
