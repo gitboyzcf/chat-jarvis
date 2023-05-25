@@ -1,0 +1,9 @@
+dist/
+node_modules/
+babel.config.js
+.eslintrc.js
+.stylelintrc.js
+.cz-config.js
+package.json
+chat-jarvis
+src/views/**/**/map
