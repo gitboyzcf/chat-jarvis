@@ -13,9 +13,11 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@vueuse/core": "^10.1.2",
     "axios": "^1.4.0",
     "dayjs": "^1.11.7",
     "lodash-es": "^4.17.21",
+    "mockjs": "^1.1.0",
     "pinia": "^2.0.36",
     "vue": "^3.3.2",
     "vue-router": "^4.2.0"
@@ -35,7 +37,9 @@
     "pre-commit": "^1.2.2",
     "prettier": "^2.8.8",
     "sass": "^1.62.1",
-    "vite": "^4.3.5"
+    "vite": "^4.3.5",
+    "vite-plugin-html": "^3.2.0",
+    "vite-plugin-mock": "^3.0.0"
   },
   "lint-staged": {
     "*.{vue,js,jsx,json}": [
