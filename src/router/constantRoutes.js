@@ -1,7 +1,7 @@
 export const constantRoutes = [
   {
     path: '/',
-    redirect: '/demo'
+    redirect: '/home'
   }
 ]
 export const lastRoute = {
