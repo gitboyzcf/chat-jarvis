@@ -1,8 +1,8 @@
 export const constantRoutes = [
-  // {
-  //   path: '/',
-  //   name: 'index'
-  // }
+  {
+    path: '/',
+    redirect: '/demo'
+  }
 ]
 export const lastRoute = {
   path: '/:pathMatch(.*)*',

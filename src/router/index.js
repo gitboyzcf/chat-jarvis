@@ -16,4 +16,6 @@ router.beforeEach((to, from, next) => {
   next()
 })
 
-export default router
+export function setupRouter(app) {
+  app.use(router)
+}

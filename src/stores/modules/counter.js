@@ -1,5 +1,4 @@
-import { ref, computed } from 'vue'
-import { defineStore } from 'pinia'
+import { piniaStore } from '@/stores'
 
 export const useCounterStore = defineStore('counter', () => {
   const count = ref(0)
@@ -10,3 +9,7 @@ export const useCounterStore = defineStore('counter', () => {
 
   return { count, doubleCount, increment }
 })
+
+export function useOutSideCounterStore() {
+  return useCounterStore(piniaStore)
+}
